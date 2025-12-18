@@ -1,0 +1,387 @@
+{
+  "presets": {
+    "humanWarrior": {
+      "name": "Guerreiro",
+      "type": "humanoid",
+      "size": 1.8,
+      "radius": 0.5,
+      "color": "#c0392b",
+      "stats": {
+        "hp": 120,
+        "maxHp": 120,
+        "vel": 45,
+        "hab": 55,
+        "agi": 40,
+        "for": 70,
+        "res": 65,
+        "per": 45,
+        "speed": 4
+      },
+      "combat": {
+        "attackRange": 2.0,
+        "attackDice": 20,
+        "defenseDice": 20
+      },
+      "vision": {
+        "range": 12,
+        "fieldOfView": 180
+      },
+      "ai": {
+        "aggressiveness": 70,
+        "courage": 80,
+        "teamwork": 60,
+        "caution": 30,
+        "patrolRadius": 5,
+        "fleeThreshold": 15
+      }
+    },
+    "humanRogue": {
+      "name": "Ladino",
+      "type": "humanoid",
+      "size": 1.7,
+      "radius": 0.45,
+      "color": "#8e44ad",
+      "stats": {
+        "hp": 80,
+        "maxHp": 80,
+        "vel": 70,
+        "hab": 65,
+        "agi": 75,
+        "for": 40,
+        "res": 45,
+        "per": 60,
+        "speed": 7
+      },
+      "combat": {
+        "attackRange": 1.5,
+        "attackDice": 20,
+        "defenseDice": 20
+      },
+      "vision": {
+        "range": 15,
+        "fieldOfView": 200
+      },
+      "ai": {
+        "aggressiveness": 50,
+        "courage": 40,
+        "teamwork": 40,
+        "caution": 70,
+        "patrolRadius": 8,
+        "fleeThreshold": 30
+      }
+    },
+    "humanMage": {
+      "name": "Mago",
+      "type": "humanoid",
+      "size": 1.75,
+      "radius": 0.45,
+      "color": "#2980b9",
+      "stats": {
+        "hp": 60,
+        "maxHp": 60,
+        "vel": 40,
+        "hab": 80,
+        "agi": 45,
+        "for": 30,
+        "res": 40,
+        "per": 70,
+        "speed": 4
+      },
+      "combat": {
+        "attackRange": 5.0,
+        "attackDice": 20,
+        "defenseDice": 20
+      },
+      "vision": {
+        "range": 18,
+        "fieldOfView": 160
+      },
+      "ai": {
+        "aggressiveness": 40,
+        "courage": 30,
+        "teamwork": 70,
+        "caution": 80,
+        "patrolRadius": 3,
+        "fleeThreshold": 40
+      }
+    },
+    "humanArcher": {
+      "name": "Arqueiro",
+      "type": "humanoid",
+      "size": 1.75,
+      "radius": 0.45,
+      "color": "#27ae60",
+      "stats": {
+        "hp": 70,
+        "maxHp": 70,
+        "vel": 60,
+        "hab": 70,
+        "agi": 65,
+        "for": 45,
+        "res": 40,
+        "per": 75,
+        "speed": 5
+      },
+      "combat": {
+        "attackRange": 8.0,
+        "attackDice": 20,
+        "defenseDice": 20
+      },
+      "vision": {
+        "range": 20,
+        "fieldOfView": 140
+      },
+      "ai": {
+        "aggressiveness": 55,
+        "courage": 45,
+        "teamwork": 60,
+        "caution": 60,
+        "patrolRadius": 6,
+        "fleeThreshold": 25
+      }
+    },
+    "goblin": {
+      "name": "Goblin",
+      "type": "creature",
+      "size": 1.2,
+      "radius": 0.35,
+      "color": "#1abc9c",
+      "stats": {
+        "hp": 40,
+        "maxHp": 40,
+        "vel": 55,
+        "hab": 35,
+        "agi": 60,
+        "for": 25,
+        "res": 30,
+        "per": 45,
+        "speed": 6
+      },
+      "combat": {
+        "attackRange": 1.5,
+        "attackDice": 20,
+        "defenseDice": 20
+      },
+      "vision": {
+        "range": 10,
+        "fieldOfView": 200
+      },
+      "ai": {
+        "aggressiveness": 60,
+        "courage": 25,
+        "teamwork": 70,
+        "caution": 50,
+        "patrolRadius": 10,
+        "fleeThreshold": 35
+      }
+    },
+    "orc": {
+      "name": "Orc",
+      "type": "creature",
+      "size": 2.0,
+      "radius": 0.6,
+      "color": "#2c3e50",
+      "stats": {
+        "hp": 150,
+        "maxHp": 150,
+        "vel": 35,
+        "hab": 40,
+        "agi": 30,
+        "for": 85,
+        "res": 75,
+        "per": 35,
+        "speed": 4
+      },
+      "combat": {
+        "attackRange": 2.5,
+        "attackDice": 20,
+        "defenseDice": 20
+      },
+      "vision": {
+        "range": 8,
+        "fieldOfView": 160
+      },
+      "ai": {
+        "aggressiveness": 85,
+        "courage": 70,
+        "teamwork": 50,
+        "caution": 20,
+        "patrolRadius": 6,
+        "fleeThreshold": 15
+      }
+    },
+    "wolf": {
+      "name": "Lobo",
+      "type": "creature",
+      "size": 1.0,
+      "radius": 0.4,
+      "color": "#7f8c8d",
+      "stats": {
+        "hp": 50,
+        "maxHp": 50,
+        "vel": 80,
+        "hab": 45,
+        "agi": 75,
+        "for": 50,
+        "res": 40,
+        "per": 65,
+        "speed": 10
+      },
+      "combat": {
+        "attackRange": 1.5,
+        "attackDice": 20,
+        "defenseDice": 20
+      },
+      "vision": {
+        "range": 15,
+        "fieldOfView": 270
+      },
+      "ai": {
+        "aggressiveness": 70,
+        "courage": 50,
+        "teamwork": 80,
+        "caution": 40,
+        "patrolRadius": 15,
+        "fleeThreshold": 25
+      }
+    },
+    "skeleton": {
+      "name": "Esqueleto",
+      "type": "creature",
+      "size": 1.7,
+      "radius": 0.45,
+      "color": "#ecf0f1",
+      "stats": {
+        "hp": 45,
+        "maxHp": 45,
+        "vel": 40,
+        "hab": 50,
+        "agi": 35,
+        "for": 45,
+        "res": 60,
+        "per": 30,
+        "speed": 4
+      },
+      "combat": {
+        "attackRange": 2.0,
+        "attackDice": 20,
+        "defenseDice": 20
+      },
+      "vision": {
+        "range": 12,
+        "fieldOfView": 360
+      },
+      "ai": {
+        "aggressiveness": 90,
+        "courage": 100,
+        "teamwork": 30,
+        "caution": 0,
+        "patrolRadius": 5,
+        "fleeThreshold": 0
+      }
+    },
+    "troll": {
+      "name": "Troll",
+      "type": "creature",
+      "size": 2.5,
+      "radius": 0.8,
+      "color": "#16a085",
+      "stats": {
+        "hp": 200,
+        "maxHp": 200,
+        "vel": 25,
+        "hab": 30,
+        "agi": 20,
+        "for": 100,
+        "res": 90,
+        "per": 25,
+        "speed": 3
+      },
+      "combat": {
+        "attackRange": 3.0,
+        "attackDice": 20,
+        "defenseDice": 20
+      },
+      "vision": {
+        "range": 6,
+        "fieldOfView": 120
+      },
+      "ai": {
+        "aggressiveness": 95,
+        "courage": 90,
+        "teamwork": 10,
+        "caution": 5,
+        "patrolRadius": 4,
+        "fleeThreshold": 5
+      }
+    },
+    "vampire": {
+      "name": "Vampiro",
+      "type": "creature",
+      "size": 1.8,
+      "radius": 0.5,
+      "color": "#9b59b6",
+      "stats": {
+        "hp": 100,
+        "maxHp": 100,
+        "vel": 120,
+        "hab": 90,
+        "agi": 110,
+        "for": 80,
+        "res": 60,
+        "per": 100,
+        "speed": 8
+      },
+      "combat": {
+        "attackRange": 2.0,
+        "attackDice": 20,
+        "defenseDice": 20
+      },
+      "vision": {
+        "range": 25,
+        "fieldOfView": 300
+      },
+      "ai": {
+        "aggressiveness": 75,
+        "courage": 60,
+        "teamwork": 20,
+        "caution": 50,
+        "patrolRadius": 12,
+        "fleeThreshold": 20
+      }
+    }
+  },
+  "spawners": {
+    "playerStart": {
+      "preset": "humanWarrior",
+      "position": [5, 0, 5],
+      "isPlayerControlled": true
+    },
+    "enemyBasic": {
+      "preset": "goblin",
+      "position": [8, 0, 8],
+      "isPlayerControlled": false
+    }
+  },
+  "notes": {
+    "description": "Configurações de entidades para o jogo RPG 3D",
+    "phase": "Fase 2 - Sistema de turnos",
+    "visionFields": {
+      "range": "Alcance de visão em metros",
+      "fieldOfView": "Campo de visão em graus (360 = visão total)"
+    },
+    "aiFields": {
+      "aggressiveness": "0-100: Tendência a atacar",
+      "courage": "0-100: Resistência a fugir com HP baixo",
+      "teamwork": "0-100: Tendência a ajudar aliados",
+      "caution": "0-100: Tendência a buscar cobertura",
+      "patrolRadius": "Raio de patrulha em metros",
+      "fleeThreshold": "HP% para começar a fugir"
+    },
+    "todo": [
+      "Adicionar configurações de equipamento padrão",
+      "Adicionar configurações de habilidades",
+      "Implementar sistema de níveis e progressão"
+    ]
+  }
+}
